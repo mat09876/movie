@@ -9,12 +9,12 @@ To clone the application use the usual git clone command from a command tool
 
 1/ git clone https://github.com/lillylangtree/mdb-initial.git
 
-2/ the clone will create a mdb-initial folder in the current folder
+2/ the clone will create a mdb-initial/MoviesDB folder in the current folder
 
 The application includes a package.json file which will allow you to run a 
 local http server. You need to have npm installed to do this.
 
-cd to mdb-initial folder, the git clone creates this folder for you
+cd to mdb-initial/MoviesDB folder, the git clone creates this folder for you
 
 1/ issue command npm start
 
