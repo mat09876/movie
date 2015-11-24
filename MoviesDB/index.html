@@ -11,10 +11,14 @@
 	<script src="javascript/vendor/bootstrap.min.js"></script>
   </head>
   <body ng-controller='MovieListController'>
-    <div ng-repeat="movie in movieList">
-      <h1>{{movie.title}}</h1>
-      <img ng-src="http://image.tmdb.org/t/p/w370/{{movie.poster_path}}" />
-    </div>
+    <h1>{{title}} </h1>
+     
+        <div  ng-repeat="movie in movieList">
+		 
+          <img class='img-responsive' ng-src="http://image.tmdb.org/t/p/w370/{{movie.poster_path}}" style="">                 
+          <h3>{{movie.title}}</h3>
+               
+		</div>
    
   </body>
   <script src='javascript/app.js'></script>
