@@ -1,0 +1,8 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  font-size: 1em;
+}
